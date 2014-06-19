@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Aloha::Rails::VERSION
 
-  gem.add_dependency(%q<rails>, ["~> 3.1"])
+  gem.add_dependency(%q<rails>, ["~> 4.0"])
   gem.add_dependency(%q<jquery-rails>)
 
   gem.add_development_dependency %q<rspec-rails>, ["~> 2.8"]
